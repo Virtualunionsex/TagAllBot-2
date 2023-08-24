@@ -52,7 +52,7 @@ async def help(event):
       [
         Button.url('Admin1', 'https://t.me/panggil_m'),
         Button.url('Admin2', 'https://t.me/xxgt4us'), 
-        Button.url('Bot admin', 'https://t.me/xxgt4us')
+        Button.url('Bot admin', 'https://t.me/ordervvip_69bot')
       ], 
       [
         Button.url('Opsi Pembayaran', 'https://telegra.ph/Opsi-Pembayaran-08-23'),
