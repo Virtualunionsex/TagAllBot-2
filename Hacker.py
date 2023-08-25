@@ -55,7 +55,7 @@ async def help(event):
       ],
       [
         Button.url('List Harga', 'https://telegra.ph/Deskripsi-VVIP-08-23'),
-        Button.url('Testy', 'https://t.me/testivvipelle')
+        Button.url('Testy', 'https://t.me/javline')
       ]
     )
   )
