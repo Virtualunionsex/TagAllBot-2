@@ -14,14 +14,14 @@ LOGGER = logging.getLogger(__name__)
 
 api_id = int(os.environ.get("APP_ID", "22825629"))
 api_hash = os.environ.get("API_HASH", "e8db542482a1638b4e5b03ed1ddae521")
-bot_token = os.environ.get("TOKEN", "6637498343:AAGMoAT_eAz3n19MyvyYrX0IuUUiVBTeWSo")
+bot_token = os.environ.get("TOKEN", "6185575028:AAHXlMB2Wzzw34LfaxYAIg1pMWMHbI7TfGU")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "*Selamat datang di Bot VVIP Premium 69 \n\nUntuk dapat di acc dalam VVIP Premium 69 anda harus order terlebih dahulu\nKetik /help untuk order sekarang juga ",
+    "𝙎𝙚𝙡𝙖𝙢𝙖𝙩 𝙙𝙖𝙩𝙖𝙣𝙜 𝙙𝙞 𝘽𝙤𝙩 𝙑𝙑𝙄𝙋 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 𝙀𝙇𝙇𝙀\n\nUntuk dapat di acc dalam VVIP Premium Elle anda harus order terlebih dahulu\nKetik /help untuk order sekarang juga (hub admin)",
     link_preview=False,
     buttons=(
       [
@@ -44,25 +44,18 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "*Teknis Order \n\n1. Pilih VVIP yang Anda inginkan cek tombol deskripsi\n2. Transfer sesuai harga VVIP (cek Opsi pembayaran)\n3. Kirim bukti pembayaran ke admin ataw bot acc admin\n4. Anda akan di acc setalah mengirimkan bukti paembayaran"
+  helptext = "𝙏𝙚𝙠𝙣𝙞𝙨 𝙊𝙧𝙙𝙚𝙧:\n\n1. Pilih VVIP yang Anda inginkan cek tombol list harga\n2. Transfer sesuai harga VVIP (Hub Admin) \n3. Kirim bukti pembayaran ke admin ataw bot acc admin\n4. Anda akan di acc setalah mengirimkan bukti paembayaran"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('👩‍💻 Admin1', 'https://t.me/panggil_m'),
-        Button.url('👩‍💻 Admin2', 'https://t.me/xxgt4us'), 
-        Button.url('👩‍💻 Admin3', 'https://t.me/bocorhalus_01')
-      ], 
+        Button.url('👩‍💻 Admin', 'https://t.me/TESTIVVIPELLE'),
+        Button.url('🤖 Bot Admin', 'https://t.me/VVIPJAPELIN_BOT')
+      ],
       [
-        Button.url('🤖 Bot Admin', 'https://t.me/ordervvip_69bot')
-      ], 
-      [
-        Button.url('Opsi Pembayaran', 'https://telegra.ph/Opsi-Pembayaran-08-23'),
-        Button.url('Testy', 'https://t.me/+wrS0J0dsDh82NmI1')
-      ], 
-      [
-        Button.url('List Harga & Deskripsi', 'https://telegra.ph/Deskripsi-VVIP-08-23')
+        Button.url('List Harga', 'https://telegra.ph/Deskripsi-VVIP-08-23'),
+        Button.url('Testy', 'https://t.me/testivvipelle')
       ]
     )
   )
