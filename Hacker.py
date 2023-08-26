@@ -25,15 +25,15 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('Vip Barat', 'https://t.me/+ogAPs2a5V6Q5MDg1'),
-        Button.url('Vip Indo', 'https://t.me/+ZPGGejCtidI2YmZl'),
-        Button.url('Vip Japan', 'https://t.me/+AfnaaWvPy_M3OGZl'), 
-        Button.url('Vip Random', 'https://t.me/+2P_gt1UC8NUyNTdl')
+        Button.url('Barat', 'https://t.me/+ogAPs2a5V6Q5MDg1'),
+        Button.url('Indo', 'https://t.me/+ZPGGejCtidI2YmZl'),
+        Button.url('Japan', 'https://t.me/+AfnaaWvPy_M3OGZl'), 
+        Button.url('Random', 'https://t.me/+2P_gt1UC8NUyNTdl')
       ], 
       [
-        Button.url('Vip Hijab', 'https://t.me/+Dnj_Rl12uz4yNDQ9'),
-        Button.url('Vip Colmek', 'https://t.me/+1jMoO7jdWfcyNDM9'), 
-        Button.url('Vip Galery Hot', 'https://t.me/+SydNzuyT4nc1Mjc1')
+        Button.url('Hijab', 'https://t.me/+Dnj_Rl12uz4yNDQ9'),
+        Button.url('Colmek', 'https://t.me/+1jMoO7jdWfcyNDM9'), 
+        Button.url('Galery Hot', 'https://t.me/+SydNzuyT4nc1Mjc1')
       ], 
       [ 
         Button.url('Vvip Rare', 'https://t.me/+G6pYPjyv_GJlNGM1'), 
@@ -62,12 +62,12 @@ async def help(event):
         Button.url('🛒 Testy', 'https://t.me/testi_casey')
       ],
       [
-        Button.url('List Harga', 'https://telegra.ph/Deskripsi-VVIP-08-23')
+        Button.url('List Harga', 'https://t.me/PemuasHasrat_Horny/46')
       ]
     )
   )
     
-  @client.on(events.NewMessage(pattern="^/settings$"))
+@client.on(events.NewMessage(pattern="^/settings$"))
 async def help(event):
   helptext = "Hungungi Bot Teknisi Jika ada Kendala Pada Setiap Bot Kami"
   await event.reply(
