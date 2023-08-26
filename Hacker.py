@@ -42,7 +42,7 @@ async def start(event):
       ], 
       [ 
         Button.url('Vvip Cosplay Hot', 'https://t.me/+vafRZM3V_HI1N2Q1'), 
-        Button.url('Vvip Durasi 1Jam ', 'https://t.me/+vUJLYw2PQF0xNTA1'),
+        Button.url('Vvip Durasi 1Jam ', 'https://t.me/+vUJLYw2PQF0xNTA1')
       ], 
       [
         Button.url('Vvip Anak Sekolah Cabul', 'https://t.me/+kaOTRtB1q2llMDBl')
